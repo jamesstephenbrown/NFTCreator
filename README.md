@@ -1,7 +1,7 @@
 # NFTCreator
 A simple solution for creating 1000s of unique NFTs
 
-These javascript files will combine a set of PNG elements to create every possible variation. Simply place your image elements in the corresponding folders 'Details' (top layer), 'Faces' (mid layer), 'Scenes' (background layer). Each folder needs to have within it a 'Colored' folder.
+These javascript files will combine a set of PNG elements to create every possible variation like in this example nonzerosum.games/friendgibles. Simply place your image elements in the corresponding folders 'Details' (top layer), 'Faces' (mid layer), 'Scenes' (background layer). Each folder needs to have within it a 'Colored' folder.
 
 I would advise having no more than 5 elements in each folder as you will get exponentially large numbers of variations. If you create too many I have found you may crash the program. For this reason I have made it possible to output tri-colored, dual-colored and mono-colored separately.
 
