@@ -22,7 +22,7 @@ node Combine.mjs duo
 Run the Combine.mjs script to output tri-tone images:
 node Combine.mjs tri
 
-If you would like them to be ordered randomly (with a random number at the front of the file name) add 'rand' to the terminal command:
-node Combine.mjs tri rand
+If you would like them to be ordered randomly (with a random number at the front of the file name) add 'randomise' to the terminal command:
+node Combine.mjs tri randomise
 
 That's it, enjoy.
