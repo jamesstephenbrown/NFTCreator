@@ -7,19 +7,22 @@ I would advise having no more than 5 elements in each folder as you will get exp
 
 Open a terminal window from the NFT Creator folder.
 Install node:
-  pip3 node install
-Run the Colorise.mjs script: node Colorise.mjs
+pip3 node install
+Run the Colorise.mjs script to colorise the images (into their respective "Colored" folders):
+node Colorise.mjs
 
 You can choose what type of coloring you want when you combine the pictures.
 
-Run the Combine.mjs script:
-  node Combine.mjs mono
-Run the Combine.mjs script:
-  node Combine.mjs duo
-Run the Combine.mjs script:
-  node Combine.mjs tri
+Run the Combine.mjs script to output monochrome images:
+node Combine.mjs mono
+
+Run the Combine.mjs script to output dual-tone images:
+node Combine.mjs duo
+
+Run the Combine.mjs script to output tri-tone images:
+node Combine.mjs tri
 
 If you would like them to be ordered randomly (with a random number at the front of the file name) add 'rand' to the terminal command:
-  node Combine.mjs tri rand
+node Combine.mjs tri rand
 
 That's it, enjoy.
